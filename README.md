@@ -26,7 +26,7 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+[Nest](https://github.com/nestjs/nest) framework TypeScript proof of concept.
 
 ## Installation
 
@@ -69,15 +69,16 @@ $ docker build --tag nestjs-microservice:poc .
 $ docker run --publish 3000:3000 --detach --name nestjs-microservice nestjs-microservice:poc
 ```
 
-## Support
+## Api info
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+- Swagger - [http://localhost:3000/api](http://localhost:3000/api)
+- Hello - [http://localhost:3000/hello](http://localhost:3000/hello)
+- Github Profiler - [http://localhost:3000/github/{username}](http://localhost:3000/github/danielmiralles)
+- Health - [http://localhost:3000/health](http://localhost:3000/health)
 
 ## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- Author - [Daniel Miralles](https://danielmiralles.github.io)
 
 ## License
 
